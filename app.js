@@ -14,7 +14,7 @@ var auth = require('./routes/auth');
 
 var app = express();
 
-require('dotenv').load();
+require('dotenv').config();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
